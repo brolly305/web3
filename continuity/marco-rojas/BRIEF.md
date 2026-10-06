@@ -115,3 +115,20 @@ Brand-system conflict: the Ohana brand notes describe the badge as a **black** c
 - Layout source: `board.html`. It expects `panels/A–E.png`, the Higgsfield jobs below.
 - Panel jobs: A turnaround `f279dc18…` (v2) · B heads `df564e31…` · C1 `5e57a4d8…` · C2 `e71e474b…` · D poses `2984afed…` (v2) · E costume `fb4f09c9…`
 - Known gaps: (1) the full-body panels (A, D) render a leaner build than the reference; (2) the iris reads blue-grey in studio light; (3) the badge is a generated approximation; (4) Higgsfield ran Nano Banana 2, not Pro.
+
+## 9. Run rules (standing)
+
+### Preflight: all three must pass before any Higgsfield credits are spent
+1. `git push` to the working branch succeeds.
+2. `curl` to `d8j0ntlcm91z4.cloudfront.net` (Higgsfield result CDN) returns `200`.
+3. Higgsfield Element `Marco-Rojas` (`15bcf913-3e33-4a82-96a4-0733753a8c94`) exists with status `completed`.
+
+If any check fails, stop and report which one. Do not generate.
+
+### Asset handoff rule
+All generated images are committed to the repo in the same session they're made. If the image server is blocked, stop and flag it before generating, not after.
+
+### Preflight log
+| Date | 1 · push | 2 · CDN 200 | 3 · Element | Result |
+|---|---|---|---|---|
+| 06 Oct 2026 | pass | **fail** (403, proxy policy denial; reproduced in a fresh session) | pass | Blocked. Panels A–E and `board.png` are still only in Higgsfield, not the repo (see §8). |
