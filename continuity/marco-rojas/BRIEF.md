@@ -98,5 +98,20 @@ Face, identity, skin tone, apparent age, hair, eye colour, body shape, proportio
 | Stubble | short, dense | matches | slightly longer on chin |
 | Badge text | n/a | crisp (overlay graphic) | garbled small text ("PORERTY & TRAPECTION…"), a generation artifact |
 
+### Seven more clips (garage/basement, laptop, van, three curbside Marketing Studio renders, montage)
+
+- **There are four different polos in circulation:** (1) deep forest green with a cream lotus badge in a circle; (2) deep forest green with a bare lotus and no circle; (3) bright kelly green with an "M / Ohana" mark; (4) bright kelly green with an angular two-stroke glyph. Marks (3) and (4) aren't the Ohana logo. Mark (4) is an unreadable angular glyph that viewers could misread as something else. **Pull that clip before it's posted again.**
+- **The navy tee look recurs:** garage, basement sorting, the laptop scene and the van selfie all use it. Footwear is visible once (garage): dark work boots or shoes, with black work gloves.
+- **Worst drift is in the van selfie:** the hair turns brown and wavy and the face softens. At thumbnail size it reads as a different man.
+- **Most stable:** the curbside forest-polo selfie. It's the closest match to `reference.png`.
+- **Higgsfield already has an avatar:** Marketing Studio holds "Marco with Ohana" (`bc5d34c7…`), using the same image as `reference.png`. It's also saved as the Element `Marco-Rojas` (`15bcf913-3e33-4a82-96a4-0733753a8c94`), which all board panels are generated from.
+
 The garbled badge text is the strongest reason to composite the logo from a real file rather than generate it.
 Brand-system conflict: the Ohana brand notes describe the badge as a **black** circle with a gold ring. Both clips show a **green** circle (lion clip) and a **cream outline on green** (polo). Use the real logo file to settle it.
+
+## 8. Delivered board (v1, 06 Oct 2026)
+
+- Final 4:5 board (2160×2700): Higgsfield media `34eabbe3-f4ec-4a99-a00f-6e130dfcdcdc`, https://d2ol7oe51mr4n9.cloudfront.net/user_3EL6oNVV1tTsxDOFg9e7Fl9dGiZ/34eabbe3-f4ec-4a99-a00f-6e130dfcdcdc.png
+- Layout source: `board.html`. It expects `panels/A–E.png`, the Higgsfield jobs below.
+- Panel jobs: A turnaround `f279dc18…` (v2) · B heads `df564e31…` · C1 `5e57a4d8…` · C2 `e71e474b…` · D poses `2984afed…` (v2) · E costume `fb4f09c9…`
+- Known gaps: (1) the full-body panels (A, D) render a leaner build than the reference; (2) the iris reads blue-grey in studio light; (3) the badge is a generated approximation; (4) Higgsfield ran Nano Banana 2, not Pro.
