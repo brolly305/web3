@@ -132,3 +132,4 @@ All generated images are committed to the repo in the same session they're made.
 | Date | 1 · push | 2 · CDN 200 | 3 · Element | Result |
 |---|---|---|---|---|
 | 06 Oct 2026 | pass | **fail** (403, proxy policy denial; reproduced in a fresh session) | pass | Blocked. Panels A–E and `board.png` are still only in Higgsfield, not the repo (see §8). |
+| 13 Oct 2026 | pass | **fail** (403 `CONNECT tunnel failed`; example.com also 403, pypi.org 200, so the policy is package-managers-only) | not checked | Blocked. Download list committed to `ASSETS.md`; images still not in the repo. |
