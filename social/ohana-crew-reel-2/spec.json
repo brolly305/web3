@@ -1,0 +1,13 @@
+{
+  "cover": 6,
+  "shots": [
+    {"type": "image", "src": "edca2e82.jpg", "dur": 2.5, "fx": 0.52, "lines": ["RAIN OR", "SHINE"], "hl": "SHINE", "sub": "The crew shows up."},
+    {"type": "image", "src": "91212110.jpg", "dur": 2.5, "fx": 0.58, "lines": ["LOADED", "UP"], "hl": "LOADED", "sub": "Real jobs. Real crew."},
+    {"type": "image", "src": "f546ed34.jpg", "dur": 2, "fx": 0.5, "lines": ["BASEMENT", "CORNERS"], "hl": "BASEMENT"},
+    {"type": "image", "src": "c1d86aec.jpg", "dur": 2, "fx": 0.48, "lines": ["HEAVY", "EQUIPMENT"], "hl": "HEAVY"},
+    {"type": "image", "src": "2559302f.jpg", "dur": 2, "fx": 0.5, "lines": ["UP IN THE", "RAFTERS"], "hl": "RAFTERS"},
+    {"type": "image", "src": "5ce017bb.jpg", "dur": 2, "fx": 0.42, "lines": ["PACKED", "GARAGES"], "hl": "PACKED"},
+    {"type": "image", "src": "eb60550b.jpg", "dur": 2.5, "fx": 0.3, "lines": ["EMPTY &", "READY"], "hl": "READY", "sub": "On to the next one."},
+    {"type": "image", "src": "af4c7f40.jpg", "dur": 2.5, "fx": 0.45, "lines": ["BOOK YOUR", "CLEAN-OUT"], "hl": "CLEAN-OUT", "sub": "Call or text for a quote."}
+  ]
+}

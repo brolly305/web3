@@ -1,0 +1,9 @@
+{
+  "cover": 1,
+  "shots": [
+    {"type": "image", "src": "6b0c58e5-image.jpg", "dur": 3, "fx": 0.45, "lines": ["ROLLING OUT", "WITH THE", "CREW"], "hl": "CREW", "sub": "Another day, another job."},
+    {"type": "clip", "src": "4bdb745a-IMG_2625.mov", "segments": [[0, 3]], "dur": 3, "lines": ["NO ATTIC", "TOO TIGHT"], "hl": "TIGHT", "sub": "We go where the job is."},
+    {"type": "clip", "src": "4bdb745a-IMG_2625.mov", "segments": [[3, 5], [8.4, 9.4]], "dur": 3, "lines": ["EVERY CORNER", "CHECKED"], "hl": "CHECKED", "sub": "Nothing left behind."},
+    {"type": "image", "src": "2fa896c4-image.jpg", "dur": 3, "fx": 0.45, "lines": ["JUNK REMOVAL", "CLEAN-OUTS", "HAULING"], "hl": "HAULING"}
+  ]
+}

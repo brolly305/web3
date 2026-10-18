@@ -1,6 +1,6 @@
 # Ohana crew reel 2 (21 s, 1080x1920, H.264)
 
-Eight real job photos, slow pans, brand overlays, green CTA end card. No AI-generated imagery. Silent; add music in the posting app.
+Eight real job photos, slow pans, brand overlays, green CTA end card. No AI-generated imagery. Synthesised SFX (hit, whooshes, chime) mastered to -14 LUFS; add music in the posting app.
 
 | Time | Shot | Headline |
 |---|---|---|
@@ -15,3 +15,5 @@ Eight real job photos, slow pans, brand overlays, green CTA end card. No AI-gene
 | 18–21 s | End card | READY WHEN **YOU** ARE · (812) 302-6833 |
 
 Privacy: `sanitize.py` blurs the trailer licence plates, the client's house number (siding and chalked pavement) and family names written on the garage wall before rendering.
+
+Rendered by `../reelkit/render.py` from `spec.json`, following `../reelkit/Reel-Style-Rules.md` (Instagram safe area, animated headlines). Cover: `cover.jpg`. Source photos are not committed.
