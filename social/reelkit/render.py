@@ -16,6 +16,11 @@ W, H, FPS = 1080, 1920, 30
 SAFE_L, SAFE_R, SAFE_T = 140, 940, 220
 BAR_T, BAR_B = 1400, 1540
 GREEN, GOLD, CREAM, BLACK = (26, 61, 43), (240, 200, 8), (245, 241, 232), (14, 14, 12)
+BADGE = Image.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "brand", "ohana-badge.png"))
+
+
+def badge(size):
+    return BADGE.resize((size, int(size * BADGE.height / BADGE.width)), Image.LANCZOS)
 
 anton = lambda s: ImageFont.truetype(f"{FONTS}/fontsource-anton-5.3.0/package/files/anton-latin-400-normal.woff", s)
 serif = lambda s: ImageFont.truetype(f"{FONTS}/fontsource-dm-serif-display-5.3.0/package/files/dm-serif-display-latin-400-normal.woff", s)
@@ -40,11 +45,13 @@ def gradient(img, y0, y1, top_dark):
     img.alpha_composite(g, (0, y0))
 
 
-def brand_bar(d):
+def brand_bar(img):
+    d = ImageDraw.Draw(img)
     d.rectangle([0, BAR_T, W, BAR_B], fill=GREEN)
     d.rectangle([0, BAR_T, W, BAR_T + 5], fill=GOLD)
-    d.text((48, BAR_T + 22), "OHANA", font=serif(56), fill=GOLD)
-    d.text((50, BAR_T + 94), "PROPERTY & TRANSITION SERVICES LLC", font=anton(22), fill=CREAM)
+    img.alpha_composite(badge(118), (40, BAR_T + 13))
+    d.text((174, BAR_T + 22), "OHANA", font=serif(56), fill=GOLD)
+    d.text((176, BAR_T + 94), "PROPERTY & TRANSITION", font=anton(22), fill=CREAM)
     for text, font, fill, y in [("CALL OR TEXT", anton(26), CREAM, BAR_T + 22), ("(812) 302-6833", anton(54), GOLD, BAR_T + 56)]:
         d.text((SAFE_R - d.textlength(text, font=font), y), text, font=font, fill=fill)
 
@@ -54,7 +61,7 @@ def base_layer(path):
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     gradient(img, 0, 820, True)
     gradient(img, BAR_B, H, False)
-    brand_bar(ImageDraw.Draw(img))
+    brand_bar(img)
     img.save(path)
 
 
@@ -88,11 +95,11 @@ def end_card(path):
     img = Image.new("RGBA", (W, H), GREEN + (255,))
     d = ImageDraw.Draw(img)
     d.rectangle([0, 0, W, 10], fill=GOLD)
-    centered(d, 300, "OHANA", serif(170), GOLD)
-    centered(d, 520, "PROPERTY & TRANSITION SERVICES LLC", anton(40), CREAM)
-    centered(d, 590, "People · Property · A Fresh Start", serif_i(50), GOLD)
+    b = badge(420)
+    img.alpha_composite(b, ((W - b.width) // 2, 240))
+    centered(d, 690, "People · Property · A Fresh Start", serif_i(50), GOLD)
     f = anton(140)
-    y = 760
+    y = 790
     centered(d, y, "READY WHEN", f, CREAM)
     y += 157
     words = ["YOU", "ARE"]
@@ -102,9 +109,9 @@ def end_card(path):
     d.rectangle([x - 14, t - 10, x + d.textlength("YOU", font=f) + 14, b + 14], fill=GOLD)
     d.text((x, y), "YOU", font=f, fill=BLACK)
     d.text((x + d.textlength("YOU", font=f) + space, y), "ARE", font=f, fill=CREAM)
-    centered(d, 1110, "CALL OR TEXT", anton(44), CREAM)
-    centered(d, 1170, "(812) 302-6833", anton(120), GOLD)
-    centered(d, 1380, "COLUMBUS · LAFAYETTE · GREATER INDIANA", anton(38), CREAM)
+    centered(d, 1140, "CALL OR TEXT", anton(44), CREAM)
+    centered(d, 1200, "(812) 302-6833", anton(120), GOLD)
+    centered(d, 1410, "COLUMBUS · LAFAYETTE · GREATER INDIANA", anton(38), CREAM)
     img.save(path)
 
 

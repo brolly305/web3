@@ -135,3 +135,9 @@ All generated images are committed to the repo in the same session they're made.
 |---|---|---|---|---|
 | 06 Oct 2026 | pass | **fail** (403, proxy policy denial; reproduced in a fresh session) | pass | Blocked. Panels A–E and `board.png` are still only in Higgsfield, not the repo (see §8). |
 | 13 Oct 2026 | pass | **fail** (403 `CONNECT tunnel failed`; example.com also 403, pypi.org 200, so the policy is package-managers-only) | not checked | Blocked. Download list committed to `ASSETS.md`; images still not in the repo. |
+
+## 10. Vehicles and logo (locked, from `brand/`)
+
+- Logo: `brand/ohana-badge.png` only. Never improvised marks (see clips 04–06).
+- Vehicles: white Ram 2500 Sport crew cab, yellow Sure-Trac tandem dump trailer, red Ford Ranger XLT. A white box truck only when the scene is a rented-truck job.
+- Use `brand/fleet/*.jpg` as reference images in every generation that shows a vehicle.
