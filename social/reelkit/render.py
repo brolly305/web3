@@ -51,7 +51,7 @@ def brand_bar(img):
     d.rectangle([0, BAR_T, W, BAR_T + 5], fill=GOLD)
     img.alpha_composite(badge(118), (40, BAR_T + 13))
     d.text((174, BAR_T + 22), "OHANA", font=serif(56), fill=GOLD)
-    d.text((176, BAR_T + 94), "PROPERTY & TRANSITION", font=anton(22), fill=CREAM)
+    d.text((176, BAR_T + 94), "PROPERTY & TRANSITION SERVICES", font=anton(22), fill=CREAM)
     for text, font, fill, y in [("CALL OR TEXT", anton(26), CREAM, BAR_T + 22), ("(812) 302-6833", anton(54), GOLD, BAR_T + 56)]:
         d.text((SAFE_R - d.textlength(text, font=font), y), text, font=font, fill=fill)
 
@@ -111,7 +111,8 @@ def end_card(path):
     d.text((x + d.textlength("YOU", font=f) + space, y), "ARE", font=f, fill=CREAM)
     centered(d, 1140, "CALL OR TEXT", anton(44), CREAM)
     centered(d, 1200, "(812) 302-6833", anton(120), GOLD)
-    centered(d, 1410, "COLUMBUS · LAFAYETTE · GREATER INDIANA", anton(38), CREAM)
+    centered(d, 1360, "@OhanaPSX", anton(52), CREAM)
+    centered(d, 1450, "COLUMBUS · LAFAYETTE · GREATER INDIANA", anton(34), CREAM)
     img.save(path)
 
 

@@ -38,5 +38,10 @@ Adapted from the 5-Pass Reel Edit Kit (@zeeuiux) to the Ohana brand system. `ren
 - Service claims limited to junk removal, clean-outs, hauling, property transitions.
 - Blur plates, house numbers, names and the faces of minors before rendering.
 
+## Name and handle
+- Company name always matches the badge: "Ohana Property & Transition Services" (or with "LLC"). Never shortened.
+- Brand bar: OHANA + PROPERTY & TRANSITION SERVICES. End card: badge (full name with LLC) + @OhanaPSX.
+- Post captions tag @OhanaPSX.
+
 ## Export
 - One MP4 plus `cover.jpg` (a frame with one big word on screen) per reel.

@@ -6,6 +6,10 @@
 - Rented trucks never carry the Ohana logo.
 - `brand/README.md` has the details.
 
+## Name and handle
+- Company name: "Ohana Property & Transition Services" or "Ohana Property & Transition Services LLC", matching the badge. Never shortened.
+- Instagram: @OhanaPSX.
+
 ## People on screen
 - Real crew footage is captioned as the Ohana crew.
 - Marco Rojas (AI persona modeled on co-owner Hansel Ortega) and Hansel's Captions AI clone are generated people:
