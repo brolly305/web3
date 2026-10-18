@@ -33,8 +33,8 @@ Adapted from the 5-Pass Reel Edit Kit (@zeeuiux) to the Ohana brand system. `ren
 - Master to -14 LUFS, true peak under -1 dB. Music is added in the posting app, under the SFX.
 
 ## Content rules
-- Real footage is captioned as Hansel or the Ohana crew. Marco Rojas (AI persona modeled on Hansel) appears only in generated scenes,
-  and any post with a generated person carries the platform's AI label.
+- Real crew footage is captioned as the Ohana crew. Generated people (Marco Rojas, and Hansel's Captions AI clone)
+  appear only in generated scenes, and any post with a generated person carries the platform's AI label.
 - Service claims limited to junk removal, clean-outs, hauling, property transitions.
 - Blur plates, house numbers, names and the faces of minors before rendering.
 

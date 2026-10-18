@@ -12,7 +12,8 @@ before generation; once approved they are locked like the face.
 |---|---|
 | Name | Marco Rojas |
 | Role | On-camera face of Ohana Property & Transition Services LLC (junk removal / property transition, Greater Indiana) |
-| Basis | AI persona modeled on co-owner Hansel Ortega, with his consent (confirmed 18 Oct 2026). Hansel appears as himself in real footage; Marco appears only in generated scenes. |
+| Basis | AI persona modeled on co-owner Hansel Ortega, with his consent (confirmed 18 Oct 2026). Marco predates Hansel's own AI clone. |
+| Related likeness | Hansel's Captions-app AI clone (presents talking-head videos as Hansel). Also generated: label it like Marco. |
 | Apparent age | 28–32 |
 | Height | 185 cm / 6'1" (*assumed*) |
 | Build | Athletic-muscular: broad shoulders, thick neck, developed chest and trapezius |
