@@ -124,7 +124,13 @@ def shot_video(i, s, out):
     tail = (f"[v]setsar=1,fps={FPS}[bg];[bg][1]overlay[b1];"
             f"[2]format=rgba,fade=in:st=0.1:d=0.3:alpha=1[hd];[b1][hd]overlay=0:'{rise}':shortest=1")
     enc = ["-r", str(FPS), "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p", "-an", out]
-    if s["type"] == "image":
+    if s["type"] == "image" and s.get("fit"):
+        # Low-res or awkward framing: whole photo, slow push-in, over a blurred fill of itself.
+        fit = (f"[0]split[a][b];[a]scale=-2:1920,crop=1080:1920,boxblur=30:3,eq=brightness=-0.1[bgf];"
+               f"[b]scale='900*(1+0.04*t/{dur})':-2:eval=frame[fg];[bgf][fg]overlay=(W-w)/2:'max(200,{BAR_T - 10}-h)'[v];")
+        run("-loop", "1", "-t", str(dur), "-i", f"{SRC}/{s['src']}", "-loop", "1", "-t", str(dur), "-i", base,
+            "-loop", "1", "-t", str(dur), "-i", head, "-filter_complex", f"{fit}{tail}", *enc)
+    elif s["type"] == "image":
         fx = s.get("fx", 0.5)
         pan = f"crop=1080:1920:'min(iw-1080,max(0,{fx}*iw-540+(t/{dur}-0.5)*160))':'(ih-1920)/2'"
         run("-loop", "1", "-t", str(dur), "-i", f"{SRC}/{s['src']}", "-loop", "1", "-t", str(dur), "-i", base,

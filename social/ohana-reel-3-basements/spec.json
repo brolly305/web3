@@ -1,0 +1,8 @@
+{
+  "cover": 0,
+  "shots": [
+    {"type": "image", "src": "bf262ea6.jpg", "dur": 3, "fx": 0.5, "lines": ["WHAT'S IN YOUR", "BASEMENT?"], "hl": "BASEMENT?"},
+    {"type": "image", "src": "3c62ef2b.jpg", "dur": 3, "fx": 0.5, "lines": ["BAGS. BOXES.", "DECADES."], "hl": "DECADES."},
+    {"type": "image", "src": "87b027a6.jpg", "dur": 3, "fit": true, "lines": ["OLD", "FURNITURE?"], "hl": "FURNITURE?", "sub": "We haul it out."}
+  ]
+}

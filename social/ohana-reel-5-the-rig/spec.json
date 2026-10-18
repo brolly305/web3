@@ -1,0 +1,9 @@
+{
+  "cover": 3,
+  "shots": [
+    {"type": "image", "src": "6703a32f.jpg", "dur": 3, "fit": true, "lines": ["LOOK FOR", "THE GREEN"], "hl": "GREEN", "sub": "That's us."},
+    {"type": "image", "src": "3c2b5e7d.jpg", "dur": 2.5, "fx": 0.5, "lines": ["ON THE", "WAY"], "hl": "WAY", "sub": "Rolling to your job."},
+    {"type": "image", "src": "77d76add.jpg", "dur": 2.5, "fx": 0.45, "lines": ["YOUR", "NEIGHBORHOOD"], "hl": "NEIGHBORHOOD", "sub": "Greater Indiana."},
+    {"type": "image", "src": "69eca387.jpg", "dur": 3, "fit": true, "lines": ["TRUCK +", "TRAILER"], "hl": "TRAILER", "sub": "Room for the big jobs."}
+  ]
+}

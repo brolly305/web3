@@ -1,0 +1,10 @@
+{
+  "cover": 0,
+  "shots": [
+    {"type": "image", "src": "ca7c4c70.jpg", "dur": 2.5, "fx": 0.55, "lines": ["RENO", "DEBRIS?"], "hl": "DEBRIS?", "sub": "Lumber, siding, gutters."},
+    {"type": "image", "src": "57b5f774.jpg", "dur": 2.5, "fit": true, "lines": ["JOB-SITE", "CLEAN-OUTS"], "hl": "CLEAN-OUTS"},
+    {"type": "image", "src": "d8332b12.jpg", "dur": 2.5, "fx": 0.45, "lines": ["THAT CORNER", "OF THE YARD"], "hl": "YARD"},
+    {"type": "image", "src": "ba9a473f.jpg", "dur": 2.5, "fit": true, "lines": ["OLD LOGS", "HAULED"], "hl": "HAULED"},
+    {"type": "image", "src": "30336213.jpg", "dur": 2.5, "fx": 0.5, "lines": ["GARDEN", "LEFTOVERS"], "hl": "GARDEN", "sub": "Small loads count too."}
+  ]
+}
