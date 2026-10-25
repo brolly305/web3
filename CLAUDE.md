@@ -8,7 +8,9 @@
 
 ## Name and handle
 - Company name: "Ohana Property & Transition Services" or "Ohana Property & Transition Services LLC", matching the badge. Never shortened.
-- Instagram: @OhanaPSX.
+- Instagram: @OhanaPSX (abbreviation of the DBA).
+- Website: ohanapropertyexperts.com (the DBA's domain). Exact DBA wording: not yet recorded; ask the owner.
+- Status: the business is launching (as of Oct 2026).
 
 ## People on screen
 - Real crew footage is captioned as the Ohana crew.
