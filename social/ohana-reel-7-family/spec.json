@@ -1,0 +1,39 @@
+{
+  "cover": 0,
+  "shots": [
+    {
+      "type": "image",
+      "src": "a1fee922-decal.jpg",
+      "dur": 3.5,
+      "lines": [
+        "OHANA MEANS",
+        "FAMILY"
+      ],
+      "hl": "FAMILY",
+      "fit": true
+    },
+    {
+      "type": "image",
+      "src": "30627dea.jpg",
+      "dur": 3,
+      "fx": 0.5,
+      "lines": [
+        "WE TREAT YOU",
+        "LIKE ONE"
+      ],
+      "hl": "ONE"
+    },
+    {
+      "type": "image",
+      "src": "7b184301.jpg",
+      "dur": 3,
+      "fx": 0.5,
+      "lines": [
+        "YOUR STUFF",
+        "HANDLED RIGHT"
+      ],
+      "hl": "RIGHT",
+      "sub": "Blankets down, load secured."
+    }
+  ]
+}

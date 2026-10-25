@@ -1,0 +1,39 @@
+{
+  "cover": 0,
+  "shots": [
+    {
+      "type": "image",
+      "src": "6e648680.jpg",
+      "dur": 3,
+      "fx": 0.55,
+      "lines": [
+        "TIGHT",
+        "ALLEY?"
+      ],
+      "hl": "ALLEY?"
+    },
+    {
+      "type": "image",
+      "src": "ef56ee1b.jpg",
+      "dur": 2.5,
+      "fx": 0.5,
+      "lines": [
+        "WE STILL",
+        "SHOW UP"
+      ],
+      "hl": "SHOW"
+    },
+    {
+      "type": "image",
+      "src": "e8a5b108.jpg",
+      "dur": 2.5,
+      "fx": 0.5,
+      "lines": [
+        "EVERY",
+        "SHELF"
+      ],
+      "hl": "SHELF",
+      "sub": "Broken down and hauled."
+    }
+  ]
+}

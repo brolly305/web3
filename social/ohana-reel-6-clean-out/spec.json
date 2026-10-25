@@ -1,0 +1,51 @@
+{
+  "cover": 0,
+  "shots": [
+    {
+      "type": "image",
+      "src": "dd3ab48a.jpg",
+      "dur": 3,
+      "fx": 0.5,
+      "lines": [
+        "BACK ROOM",
+        "OVERFLOWING?"
+      ],
+      "hl": "OVERFLOWING?",
+      "sub": "Bins, shelves, chairs, all of it."
+    },
+    {
+      "type": "image",
+      "src": "9ce829e0.jpg",
+      "dur": 2.5,
+      "fx": 0.5,
+      "lines": [
+        "WE CARRY",
+        "IT OUT"
+      ],
+      "hl": "CARRY"
+    },
+    {
+      "type": "image",
+      "src": "0b9c6c21.jpg",
+      "dur": 2.5,
+      "fx": 0.45,
+      "lines": [
+        "STACKED",
+        "& LOADED"
+      ],
+      "hl": "LOADED"
+    },
+    {
+      "type": "image",
+      "src": "b57ab364.jpg",
+      "dur": 3,
+      "fx": 0.5,
+      "lines": [
+        "ONE TRIP.",
+        "DONE."
+      ],
+      "hl": "DONE.",
+      "sub": "Wrapped and strapped."
+    }
+  ]
+}
