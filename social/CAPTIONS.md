@@ -24,3 +24,8 @@ Call or text (812) 302-6833. @OhanaPSX
 Look for the green. Truck + trailer, room for the big jobs.
 Ohana Property & Transition Services, Greater Indiana. Call or text (812) 302-6833. @OhanaPSX
 #junkremoval #hauling #dumptrailer #indiana
+
+## ohana-launch
+We're open. Ohana Property & Transition Services is now booking junk removal, clean-outs and hauling across Columbus, Lafayette and Greater Indiana.
+Book at ohanapropertyexperts.com or call or text (812) 302-6833. @OhanaPSX
+#nowopen #junkremoval #cleanouts #hauling #indiana

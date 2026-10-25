@@ -91,7 +91,7 @@ def headline_layer(path, lines, hl, sub):
     img.save(path)
 
 
-def end_card(path):
+def end_card(path, website=False):
     img = Image.new("RGBA", (W, H), GREEN + (255,))
     d = ImageDraw.Draw(img)
     d.rectangle([0, 0, W, 10], fill=GOLD)
@@ -111,7 +111,10 @@ def end_card(path):
     d.text((x + d.textlength("YOU", font=f) + space, y), "ARE", font=f, fill=CREAM)
     centered(d, 1140, "CALL OR TEXT", anton(44), CREAM)
     centered(d, 1200, "(812) 302-6833", anton(120), GOLD)
-    centered(d, 1360, "@OhanaPSX", anton(52), CREAM)
+    if website:
+        centered(d, 1345, "ohanapropertyexperts.com  ·  @OhanaPSX", anton(44), CREAM)
+    else:
+        centered(d, 1360, "@OhanaPSX", anton(52), CREAM)
     centered(d, 1450, "COLUMBUS · LAFAYETTE · GREATER INDIANA", anton(34), CREAM)
     img.save(path)
 
@@ -177,7 +180,7 @@ def main():
     spec = json.load(open(SPEC))
     os.makedirs(WORK, exist_ok=True)
     base_layer(f"{WORK}/base.png")
-    end_card(f"{WORK}/end.png")
+    end_card(f"{WORK}/end.png", spec.get("website", False))
     files, cuts, t = [], [], 0.0
     for i, s in enumerate(spec["shots"]):
         out = f"{WORK}/shot{i}.mp4"
