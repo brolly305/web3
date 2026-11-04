@@ -30,9 +30,12 @@ reflective seated delivery; the subject is a lifetime of belongings instead of a
 | take-01 (hook) | 7 s | Clearing out a parent's home isn't a junk job. It's a lifetime, sitting in boxes. |
 | take-02 | 8 s | So we slow down. We ask what stays, what goes, and what matters, before anything touches the truck. |
 | take-03 | 8 s | Patience is the whole job. Rush it, and something irreplaceable ends up in the trailer. |
-| take-04 (CTA) | 7 s | Ohana means family, and we treat you like one. Call or text eight one two, three oh two, six eight three three. |
+| take-04 (CTA) | 7 s | Ohana Property Services. Ohana means family, and we treat you like one. Call or text eight one two, three oh two, six eight three three. |
 
 Captions show the number as (812) 302-6833.
+
+Claims check (5 Nov 2026): sorting with families is confirmed by the owner, so take-02 is accurate. Donation can be added
+as a later line only with "with your permission".
 
 ## Shot (one camera, all takes)
 - Marco per `continuity/marco-rojas/BRIEF.md` §1–3: face lock, forest-green Ohana polo with the cream badge, dark jeans.

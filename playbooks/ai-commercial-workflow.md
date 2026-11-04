@@ -93,7 +93,7 @@ clean-outs, hauling, property transitions.
 | 0–3 s | Close-up of an overwhelming pile. Text/VO: "Where do you even start?" | Hook before the establishing shot |
 | 3–7 s | Wide, 3/4 garage; homeowner surveys it | Location plate built around the action |
 | 7–12 s | White Ram + yellow Sure-Trac trailer arrive; Marco introduces the solution | Fleet as references |
-| 12–20 s | Carrying and loading; cuts hidden behind crew carrying items past the lens | Hidden cut |
+| 12–20 s | Sorting with the homeowner (keep / donate / haul), then carrying and loading; cuts hidden behind crew carrying items past the lens | Hidden cut |
 | 20–25 s | Match cut: same 3/4 garage angle, now cleared | Same plate, edited empty |
 | 25–30 s | Trailer pack shot; logo, phone and website added in the edit | Pack shot |
 

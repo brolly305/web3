@@ -7,9 +7,10 @@
 - `brand/README.md` has the details.
 
 ## Name and handle
-- Company name: "Ohana Property & Transition Services" or "Ohana Property & Transition Services LLC", matching the badge. Never shortened.
+- Legal name (badge, written): "Ohana Property & Transition Services LLC" or without "LLC". Never shortened in writing.
+- DBA and spoken name: "Ohana Property Services". Used in voiceover and dialogue; no other short forms.
 - Instagram: @OhanaPSX (abbreviation of the DBA).
-- Website: ohanapropertyexperts.com (the DBA's domain). Exact DBA wording: not yet recorded; ask the owner.
+- Website: ohanapropertyexperts.com (the DBA's domain).
 - Status: the business is launching (as of Oct 2026).
 
 ## People on screen
@@ -30,7 +31,9 @@
 ## Reels
 - Build with `social/reelkit/render.py` and a per-reel `spec.json`; follow `social/reelkit/Reel-Style-Rules.md`
   (Instagram safe area: text and phone number inside y 220–1540, x ≤ 940; -14 LUFS; ship `cover.jpg`).
-- Service claims: junk removal, clean-outs, hauling, property transitions only.
+- Service claims: junk removal, clean-outs, hauling, property transitions, sorting and decluttering with families,
+  and donating usable items (with the client's written permission; a donation receipt from the receiving charity on request).
+  Never claim Ohana issues tax receipts itself.
 
 ## Text for the owner to paste
 - Write it ready to use, with no placeholders. If a value is unknown, ask for it directly instead.

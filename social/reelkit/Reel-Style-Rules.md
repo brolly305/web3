@@ -35,7 +35,8 @@ Adapted from the 5-Pass Reel Edit Kit (@zeeuiux) to the Ohana brand system. `ren
 ## Content rules
 - Real crew footage is captioned as the Ohana crew. Generated people (Marco Rojas, and Hansel's Captions AI clone)
   appear only in generated scenes, and any post with a generated person carries the platform's AI label.
-- Service claims limited to junk removal, clean-outs, hauling, property transitions.
+- Service claims: junk removal, clean-outs, hauling, property transitions, sorting and decluttering, donation of usable items
+  (with the client's permission). Voiceover says "Ohana Property Services"; on-screen text uses the badge name.
 - Blur plates, house numbers, names and the faces of minors before rendering.
 
 ## Name and handle

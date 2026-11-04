@@ -148,5 +148,6 @@ All generated images are committed to the repo in the same session they're made.
 | Word | Say it | Write it in the dialogue as | Known failure |
 |---|---|---|---|
 | Ohana | oh-HAH-nah | Ohana | Rendered as "Ohashi" (Día de los Muertos spot) |
+| Ohana Property Services | oh-HAH-nah PROP-er-tee SER-vih-sez | Ohana Property Services | The only spoken company name (DBA) |
 | Muertos | MWEHR-tohs | Muertos | Mispronounced (Día de los Muertos spot) |
 | (812) 302-6833 | eight one two, three oh two, six eight three three | eight one two, three oh two, six eight three three | Read digits as words, never as numerals |
