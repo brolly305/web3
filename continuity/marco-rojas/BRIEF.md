@@ -143,3 +143,10 @@ All generated images are committed to the repo in the same session they're made.
 - Use `brand/fleet/*.jpg` as reference images in every generation that shows a vehicle.
 | 04 Nov 2026 | pass | **fail** (Higgsfield hosts and static-public-media.higgsfield.ai blocked, 403) | not checked | Blocked. Shorts Studio "Bonsai Patience" run planned in `social/shorts-bonsai-ohana/BRIEF.md`; not generated. |
 | 04 Nov 2026 (2) | pass | **fail** (all four Higgsfield hosts still blocked; same session as the allowlist request) | not checked | Blocked again. Made photo reels 9 and 10 instead. |
+
+## 11. Pronunciation dictionary (lock before any spoken take)
+| Word | Say it | Write it in the dialogue as | Known failure |
+|---|---|---|---|
+| Ohana | oh-HAH-nah | Ohana | Rendered as "Ohashi" (Día de los Muertos spot) |
+| Muertos | MWEHR-tohs | Muertos | Mispronounced (Día de los Muertos spot) |
+| (812) 302-6833 | eight one two, three oh two, six eight three three | eight one two, three oh two, six eight three three | Read digits as words, never as numerals |

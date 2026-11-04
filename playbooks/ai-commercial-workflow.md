@@ -97,6 +97,23 @@ Assets to build first: Marco character sheet (from existing BRIEF), homeowner sh
 its edited-empty twin, Ram + trailer prop reference from the real photos, blocking map for the crew shot.
 Estimated cost by the video's numbers: ~1,500–2,500 credits including retries.
 
+## Speech gate (added from the ChatGPT review, 4 Nov 2026)
+Our Día de los Muertos Marco production had Marco say "Ohashi" for Ohana and mispronounce "Muertos". Video models
+generate speech and picture together, so a wrong word costs a whole multi-shot take. Before any paid video run:
+1. Lock the exact dialogue and run it through the pronunciation dictionary (`continuity/marco-rojas/BRIEF.md` §11).
+2. Generate one short, cheap voice/lip-sync test of the hardest lines (brand name, Spanish, numbers).
+3. Only then generate the scene. If a line fails, re-generate that shot only.
+
+## Scene prompt header (add above every scene prompt)
+PROJECT · AUDIENCE · HOOK (first 1–3 s) · CHARACTER refs · LOCATION refs · BLOCKING · CAMERA · LIGHTING ·
+ACTION (one) · DIALOGUE (exact) · AUDIO · TRANSITION · FORMAT · CONSTRAINTS (must not change) ·
+**ACCEPTANCE TEST** (what we check before accepting the take: seats, counts, logo, spoken brand name).
+
+## Measure, not views
+Track 3-second retention, average watch time, calls/texts to (812) 302-6833, site visits, estimates and booked jobs per ad.
+A cinematic ad that gets views but no calls loses to a phone-shot before/after.
+
 ## For client work (HOL Creative Solutions)
+Keep each client's character, location and proof libraries in their own folder; never reuse Ohana's Marco or fleet for another brand.
 Deliverables per ad: character sheets, location plates, blocking maps, scene prompts, final edit, plus this cost line.
 Quote credits ×2 for retries. Never generate a real person's likeness without their written consent; label AI people.
