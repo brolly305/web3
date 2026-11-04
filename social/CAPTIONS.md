@@ -44,3 +44,13 @@ Call or text (812) 302-6833. @OhanaPSX
 Tight alley? We still show up. Every shelf broken down and hauled.
 Call or text (812) 302-6833. @OhanaPSX
 #junkremoval #hauling #cleanouts #indiana
+
+## ohana-reel-9-room-by-room
+Packed garage, forgotten basement, that pile by the door. Room by room, we clear it until it's empty and ready for what's next.
+Ohana Property & Transition Services. Call or text (812) 302-6833. @OhanaPSX
+#cleanout #junkremoval #garagecleanout #indiana
+
+## ohana-reel-10-big-pieces
+Big, heavy furniture? Hutches, cabinets, chairs, even the ping-pong table. We handle the big pieces.
+Call or text (812) 302-6833. @OhanaPSX
+#furnitureremoval #junkremoval #hauling #indiana

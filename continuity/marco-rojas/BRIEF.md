@@ -142,3 +142,4 @@ All generated images are committed to the repo in the same session they're made.
 - Vehicles: white Ram 2500 Sport crew cab, yellow Sure-Trac tandem dump trailer, red Ford Ranger XLT. A white box truck only when the scene is a rented-truck job, and a rented truck never carries the Ohana logo.
 - Use `brand/fleet/*.jpg` as reference images in every generation that shows a vehicle.
 | 04 Nov 2026 | pass | **fail** (Higgsfield hosts and static-public-media.higgsfield.ai blocked, 403) | not checked | Blocked. Shorts Studio "Bonsai Patience" run planned in `social/shorts-bonsai-ohana/BRIEF.md`; not generated. |
+| 04 Nov 2026 (2) | pass | **fail** (all four Higgsfield hosts still blocked; same session as the allowlist request) | not checked | Blocked again. Made photo reels 9 and 10 instead. |

@@ -1,0 +1,8 @@
+{
+  "cover": 0,
+  "shots": [
+    {"type": "image", "src": "1662b962.jpg", "dur": 3, "fx": 0.45, "lines": ["BIG, HEAVY", "FURNITURE?"], "hl": "FURNITURE?"},
+    {"type": "image", "src": "c19b26ff.jpg", "dur": 3, "fx": 0.5, "lines": ["WE HANDLE THE", "BIG PIECES"], "hl": "BIG", "sub": "Hutches, cabinets, chairs."},
+    {"type": "image", "src": "0dda0679.jpg", "dur": 2.5, "fx": 0.5, "lines": ["GAME ROOM", "GEAR TOO"], "hl": "TOO"}
+  ]
+}

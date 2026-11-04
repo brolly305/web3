@@ -1,0 +1,10 @@
+{
+  "cover": 0,
+  "shots": [
+    {"type": "image", "src": "9956a8a0.jpg", "dur": 3, "fx": 0.5, "lines": ["PACKED", "GARAGE?"], "hl": "GARAGE?", "sub": "Room by room, we clear it."},
+    {"type": "image", "src": "0711b769.jpg", "dur": 2.5, "fx": 0.5, "lines": ["THE", "BASEMENT"], "hl": "BASEMENT"},
+    {"type": "image", "src": "99043c20.jpg", "dur": 2.5, "fx": 0.5, "lines": ["THAT PILE", "BY THE DOOR"], "hl": "PILE"},
+    {"type": "image", "src": "49960518.jpg", "dur": 2.5, "fx": 0.5, "lines": ["BOXED", "UP"], "hl": "BOXED"},
+    {"type": "image", "src": "07cc87ad.jpg", "dur": 3.5, "fx": 0.55, "lines": ["EMPTY &", "READY"], "hl": "READY", "sub": "Ready for what's next."}
+  ]
+}
