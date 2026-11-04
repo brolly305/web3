@@ -22,6 +22,11 @@
   If the image server is blocked, stop and flag it before generating, not after (preflight in BRIEF §9).
 - Blur plates, temp tags, house numbers, written names and the faces of minors before anything is committed or posted.
 
+## Generated video
+- Logos, phone numbers and the company name are added in the edit from official files, never rendered by the video model.
+- Generated trucks, crews or results are never presented as a real completed job. Proof content uses real footage.
+- Commercial SOP: `playbooks/ai-commercial-workflow.md`.
+
 ## Reels
 - Build with `social/reelkit/render.py` and a per-reel `spec.json`; follow `social/reelkit/Reel-Style-Rules.md`
   (Instagram safe area: text and phone number inside y 220–1540, x ≤ 940; -14 LUFS; ship `cover.jpg`).

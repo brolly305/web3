@@ -1,4 +1,8 @@
-# AI Commercial Workflow (Higgsfield): playbook
+# HOL Commercial Production OS v1.0
+
+Design the characters. Lock the environment. Direct the action. Validate the dialogue. Generate the footage. Measure the result.
+
+This file is the cinematography and production SOP (from the Higgsfield tutorial), merged with the marketing and QA layer from the ChatGPT review (4 Nov 2026).
 
 Reverse-engineered from "I Made a Cinematic AI Commercial: Here is the Full Workflow"
 (https://www.youtube.com/watch?v=kFKpcCHkuPI). Reusable for Ohana, HOL Creative Solutions client work, and personal brands.
@@ -79,23 +83,22 @@ about 200 credits per multi-shot video generation.
 > Transition: cut on [action]; keep framing and camera move; only location changes to @Location-Z.
 > Audio: [ambient of new location starts 0.5 s before cut]. VO: "…".
 
-## Ohana adaptation: "From packed to cleared" (30 s concept)
-Rules: real logo (`brand/ohana-badge.png`) and real fleet (`brand/fleet/*.jpg`) as references; Marco is an AI persona
-(`continuity/marco-rojas/BRIEF.md`), labelled as AI on every platform; service claims limited to junk removal, clean-outs,
-hauling, property transitions.
+## Ohana adaptation: "From packed to cleared" (30 s, 9:16)
+Rules: real logo (`brand/ohana-badge.png`) and real fleet (`brand/fleet/*.jpg`) as references; Marco from his existing
+Higgsfield Element (`continuity/marco-rojas/BRIEF.md`), never re-cast; labelled as AI; service claims limited to junk removal,
+clean-outs, hauling, property transitions.
 
-| Beat | Shot | Technique from the video |
+| Beat | Shot | Technique |
 |---|---|---|
-| 0–3 s | Wide, 3/4: packed garage, homeowner overwhelmed | Location plate built around the action |
-| 3–7 s | She texts (812) 302-6833; match cut on the send | Match cut on the tap |
-| 7–12 s | White Ram + yellow Sure-Trac trailer pull up; Marco in green polo steps out | Fleet + badge as references |
-| 12–20 s | Room by room: garage, basement, attic; each cut hidden behind a crew member carrying an item past the lens | Hidden cut behind a back |
-| 20–25 s | Same 3/4 garage angle, now empty; she exhales | Same location plate, edited empty (Seedream) |
-| 25–30 s | Pack shot: tight on the trailer's Ohana magnet, pull back to the loaded trailer leaving; end card | Pack shot move |
+| 0–3 s | Close-up of an overwhelming pile. Text/VO: "Where do you even start?" | Hook before the establishing shot |
+| 3–7 s | Wide, 3/4 garage; homeowner surveys it | Location plate built around the action |
+| 7–12 s | White Ram + yellow Sure-Trac trailer arrive; Marco introduces the solution | Fleet as references |
+| 12–20 s | Carrying and loading; cuts hidden behind crew carrying items past the lens | Hidden cut |
+| 20–25 s | Match cut: same 3/4 garage angle, now cleared | Same plate, edited empty |
+| 25–30 s | Trailer pack shot; logo, phone and website added in the edit | Pack shot |
 
-Assets to build first: Marco character sheet (from existing BRIEF), homeowner sheet, garage plate (packed) and
-its edited-empty twin, Ram + trailer prop reference from the real photos, blocking map for the crew shot.
-Estimated cost by the video's numbers: ~1,500–2,500 credits including retries.
+Assets: Marco (existing Element), homeowner sheet, garage plate packed + its edited-empty twin, fleet references,
+blocking map for the crew shot. Planning estimate ~1,500–2,500 credits (one example from the video, not a benchmark).
 
 ## Speech gate (added from the ChatGPT review, 4 Nov 2026)
 Our Día de los Muertos Marco production had Marco say "Ohashi" for Ohana and mispronounce "Muertos". Video models
@@ -109,11 +112,28 @@ PROJECT · AUDIENCE · HOOK (first 1–3 s) · CHARACTER refs · LOCATION refs �
 ACTION (one) · DIALOGUE (exact) · AUDIO · TRANSITION · FORMAT · CONSTRAINTS (must not change) ·
 **ACCEPTANCE TEST** (what we check before accepting the take: seats, counts, logo, spoken brand name).
 
+## Failure routing (fix the cause, don't buy more takes)
+| Symptom | Fix it in |
+|---|---|
+| Person in the wrong place, object count wrong | Blocking map / seat landmarks |
+| Wrong background on a reverse angle | Location anchors in the prompt |
+| Logo or phone number distorted | Never render them: overlay the official graphic in the edit |
+| Brand name or word mispronounced | Speech gate: re-do the voice line only |
+| Hook doesn't hold | Rewrite the first 3 s, keep the rest |
+
+## Authenticity
+- A generated truck, crew, room or result is never presented as documentation of a real job. Testimonials,
+  before/afters and "we did this" claims use real Ohana footage only.
+- Any generated person or scene that could pass as real carries the platform's AI disclosure; check each platform's rule
+  when posting (Instagram, TikTok, YouTube and Meta ads each have their own setting).
+
 ## Measure, not views
 Track 3-second retention, average watch time, calls/texts to (812) 302-6833, site visits, estimates and booked jobs per ad.
 A cinematic ad that gets views but no calls loses to a phone-shot before/after.
 
 ## For client work (HOL Creative Solutions)
+Each client gets five libraries: Brand Bible (identity, claims, pronunciations), Characters, Locations and Props,
+Scene Production (maps, prompts, settings that worked), Performance (hooks, results, costs, postmortems).
 Keep each client's character, location and proof libraries in their own folder; never reuse Ohana's Marco or fleet for another brand.
 Deliverables per ad: character sheets, location plates, blocking maps, scene prompts, final edit, plus this cost line.
 Quote credits ×2 for retries. Never generate a real person's likeness without their written consent; label AI people.
